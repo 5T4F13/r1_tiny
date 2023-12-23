@@ -3,6 +3,15 @@
 
     <xacro:include filename='inertial_macros.xacro'/>
 
+    <xacro:property name="chassis_length" value="0.300"/>
+    <xacro:property name="chassis_width" value="0.300"/>
+    <xacro:property name="chassis_height" value="0.150"/>
+    <xacro:property name="chassis_mass" value="0.5"/>
+    <xacro:property name="wheel_radius" value="0.05"/>
+    <xacro:property name="wheel_thickness" value="0.04"/>
+    <xacro:property name="wheel_mass" value="0.1"/>
+    <xacro:property name="wheel_offset_x" value="0.2"/>
+
     <material name="white">
         <color rgba="1 1 1 1 "/>
     </material>
